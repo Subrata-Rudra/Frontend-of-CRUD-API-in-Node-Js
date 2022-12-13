@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./resource/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Baloo+Bhai+2&family=Kdam+Thmor+Pro&family=Open+Sans&family=Rubik+Moonrocks&family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Cart | Shop-ONN</title>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="./">Home</a></li>
+            <li><a href="./addCart.html">Add To Cart</a></li>
+            <li><a href="./seeCart.html">Go To Cart</a></li>
+            <li><a href="./updateCart.html">Update Cart</a></li>
+            <li><a href="./deleteCart.html">Delete From Cart</a></li>
+        </ul>
+    </div>
+    <div class="main_container">
+        <h1 id="heading1">Shop-ONN</h1>
+        <br>
+        <h1 id="heading2">Shop Anytime, Anywhere</h1>
+    </div>
+    <div class="table">
+      <h2>Your Cart</h2>
+      <button class="refresh" onclick="refresh()">Refresh</button>
+      <table>
+        <thead class="colName">
+          <th>Product Id</th>
+          <th>Product Name</th>
+          <th>Product Description</th>
+          <th>Product Price</th>
+        </thead>
+        <tbody id="table_body">
+        </tbody>
+      </table>
+      <button class="refresh" onclick="refresh()">Refresh</button>
+    </div>
+    <div class="footer">
+        <ul>
+          <li id="facebook">
+            <a href="https://www.facebook.com/subrata.rudra.982/" target="_blank"
+              ><img src="./resource/facebook.svg"></i
+            ></a>
+          </li>
+          <li id="instagram">
+            <a href="https://www.instagram.com/subratarudra18/" target="_blank"
+              ><img src="./resource/instagram.svg"></a
+            >
+          </li>
+          <li id="twitter">
+            <a href="https://twitter.com/SubrataRudra18" target="_blank"
+              ><img src="./resource/twitter.svg"></a
+            >
+          </li>
+          <li id="linkedin">
+            <a
+              href="https://www.linkedin.com/in/subrata-rudra-b481741b7/"
+              target="_blank"
+              ><img src="./resource/linkedin.svg"></a
+            >
+          </li>
+          <li id="github">
+            <a href="https://github.com/Subrata-Rudra" target="_blank"><img src="./resource/github.svg"></a>
+          </li>
+          <li id="email">
+            <a href="mailto: rudrasubrata27@gmail.com" target="_blank"><img src="./resource/mail.png" width="27px"></a>
+          </li>
+          <li id="copyright">
+            All Rights Reserved &copy; Subrata Rudra&trade;
+          </li>
+        </ul>
+      </div>
+    <script src="seeCart.js"></script>
+</body>
+</html>

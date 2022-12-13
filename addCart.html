@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./resource/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Baloo+Bhai+2&family=Kdam+Thmor+Pro&family=Open+Sans&family=Rubik+Moonrocks&family=Zen+Dots&display=swap" rel="stylesheet">
+    <title>Add To Cart | Shop-ONN</title>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="./">Home</a></li>
+            <li><a href="./addCart.html">Add To Cart</a></li>
+            <li><a href="./seeCart.html">Go To Cart</a></li>
+            <li><a href="./updateCart.html">Update Cart</a></li>
+            <li><a href="./deleteCart.html">Delete From Cart</a></li>
+        </ul>
+    </div>
+    <div class="main_container">
+        <h1 id="heading1">Shop-ONN</h1>
+        <br>
+        <h1 id="heading2">Shop Anytime, Anywhere</h1>
+        <div class="formDiv">
+            <h2>Your Cart</h2>
+            <!-- <form action="http://localhost:3000/product/create" method="post" class="from" id="myForm" autocomplete="off"> -->
+            <form class="from" id="myForm" autocomplete="off">
+                <label id="l1" for="productName">Product Name:</label>
+                <input type="text" id="productName" name="name">
+                <br>
+                <label id="l2" for="productDesc">Product Description:</label>
+                <input type="text" id="productDesc" name="description">
+                <br>
+                <label id="l3" for="productPrice">Price:</label>
+                <input type="number" id="productPrice" name="price">
+                <br>
+                <!-- <button id="btn" type="submit" onclick="myFunc()">Add to Cart</button> -->
+                <button id="btn" onclick="create()">Add to Cart</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <ul>
+          <li id="facebook">
+            <a href="https://www.facebook.com/subrata.rudra.982/" target="_blank"
+              ><img src="./resource/facebook.svg"></i
+            ></a>
+          </li>
+          <li id="instagram">
+            <a href="https://www.instagram.com/subratarudra18/" target="_blank"
+              ><img src="./resource/instagram.svg"></a
+            >
+          </li>
+          <li id="twitter">
+            <a href="https://twitter.com/SubrataRudra18" target="_blank"
+              ><img src="./resource/twitter.svg"></a
+            >
+          </li>
+          <li id="linkedin">
+            <a
+              href="https://www.linkedin.com/in/subrata-rudra-b481741b7/"
+              target="_blank"
+              ><img src="./resource/linkedin.svg"></a
+            >
+          </li>
+          <li id="github">
+            <a href="https://github.com/Subrata-Rudra" target="_blank"><img src="./resource/github.svg"></a>
+          </li>
+          <li id="email">
+            <a href="mailto: rudrasubrata27@gmail.com" target="_blank"><img src="./resource/mail.png" width="27px"></a>
+          </li>
+          <li id="copyright">
+            All Rights Reserved &copy; Subrata Rudra&trade;
+          </li>
+        </ul>
+      </div>
+      <script src="addCart.js"></script>
+</body>
+</html>

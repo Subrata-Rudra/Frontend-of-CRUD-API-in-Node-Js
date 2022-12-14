@@ -20,7 +20,6 @@ fetch("http://localhost:3000/product/read")
     console.log(error);
   });
 
-
 //function of the Refresh Button
 function refresh() {
   window.location.reload();

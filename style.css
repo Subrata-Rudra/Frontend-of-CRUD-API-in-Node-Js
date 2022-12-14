@@ -96,7 +96,7 @@ form label {
   padding-right: 8rem;
 }
 
-#btn{
+#btn {
   padding: 0.7rem;
   font-size: 1.2rem;
   font-weight: bold;
@@ -118,7 +118,7 @@ form label {
   box-shadow: none;
 }
 
-#UpdateBtn{
+#UpdateBtn {
   padding: 0.7rem;
   font-size: 1.2rem;
   font-weight: bold;
@@ -140,8 +140,7 @@ form label {
   box-shadow: none;
 }
 
-
-.refresh{
+.refresh {
   padding: 0.7rem;
   font-size: 1.2rem;
   font-weight: bold;
@@ -160,7 +159,6 @@ form label {
   border-color: #24d11e;
   color: #24d11e;
 }
-
 
 .formDiv h2 {
   font-size: 2rem;
@@ -220,13 +218,12 @@ form label {
   color: white;
 }
 
-#copyright{
+#copyright {
   font-size: 1.2rem;
   font-weight: bold;
 }
 
-
-.table{
+.table {
   background-color: #fff;
   margin: 1rem 1rem 1rem;
   display: flex;
@@ -235,19 +232,20 @@ form label {
   align-items: center;
 }
 
-.table h2{
+.table h2 {
   font-family: sans-serif;
   margin-bottom: 1rem;
   font-size: 2rem;
   color: rgb(116, 3, 77);
 }
 
-th{
+th {
   background-color: rgb(5, 105, 193);
   color: white;
 }
 
-td, th {
+td,
+th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
@@ -258,13 +256,12 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-.container{
+.container {
   height: 60vh;
   background-color: #13b611;
 }
 
-
-.delDiv{
+.delDiv {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -273,13 +270,13 @@ tr:nth-child(even) {
   background-color: #9be8eb;
 }
 
-.delDiv h3{
+.delDiv h3 {
   font-size: 2rem;
   color: rgb(117, 51, 10);
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.inpDiv{
+.inpDiv {
   border-radius: 0.6rem;
   background-color: #fff;
   margin-top: 3rem;
@@ -287,11 +284,11 @@ tr:nth-child(even) {
   box-shadow: 0.3rem 0.47rem rgb(190, 189, 189);
 }
 
-#label1{
+#label1 {
   font-size: 2.4rem;
 }
 
-#pId{
+#pId {
   outline: none;
   padding: 1rem;
   border-radius: 1rem;
@@ -299,7 +296,7 @@ tr:nth-child(even) {
   font-size: 1.3rem;
 }
 
-#delBtn{
+#delBtn {
   padding: 0.7rem;
   font-size: 1.2rem;
   font-weight: bold;
@@ -319,3 +316,64 @@ tr:nth-child(even) {
   border-color: #031571;
   color: #103ccb;
 }
+
+/* this is for custom alert box -->start */
+#dialogoverlay {
+  display: none;
+  opacity: 0.8;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: #fff;
+  width: 100%;
+  z-index: 10;
+}
+
+#dialogbox {
+  display: none;
+  position: fixed;
+  font-family: cursive;
+  border-radius: 1rem;
+  width: 550px;
+  z-index: 10;
+  box-shadow: 0.3rem 0.3rem rgb(232, 229, 229);
+}
+
+#dialogbox div {
+  border-radius: 1rem;
+  background: rgb(21, 203, 188);
+}
+
+#dialogboxhead {
+  font-size: 19px;
+  font-weight: bold;
+  padding: 10px;
+  color: rgb(177, 44, 7);
+}
+
+#dialogboxbody {
+  background: #333;
+  padding: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+#dialogboxfoot {
+  background: #666;
+  padding: 10px;
+  text-align: right;
+}
+
+#dialogboxfoot button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #8408b6;
+  box-shadow: 0.2rem 0.2rem #ca80e7;
+  cursor: pointer;
+}
+/* this is for custom alert box -->end */

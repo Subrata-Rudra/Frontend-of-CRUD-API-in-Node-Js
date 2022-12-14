@@ -10,13 +10,25 @@
     <title>Add To Cart | Shop-ONN</title>
 </head>
 <body>
+  <!-- this is for creating custom alert box --start -->
+  <div id="dialogoverlay"></div>
+  <div id="dialogbox">
+    <div>
+      <div id="dialogboxhead"></div>
+      <div id="dialogboxbody"></div>
+      <div id="dialogboxfoot"></div>
+    </div>
+  </div>
+  <!-- this is for creating custom alert box --end -->
+
+
     <div class="navbar">
         <ul>
             <li><a href="./">Home</a></li>
             <li><a href="./addCart.html">Add To Cart</a></li>
             <li><a href="./seeCart.html">Go To Cart</a></li>
             <li><a href="./updateCart.html">Update Cart</a></li>
-            <li><a href="./deleteCart.html">Delete From Cart</a></li>
+            <li><a href="./deleteCart.html">Remove From Cart</a></li>
         </ul>
     </div>
     <div class="main_container">
@@ -25,7 +37,6 @@
         <h1 id="heading2">Shop Anytime, Anywhere</h1>
         <div class="formDiv">
             <h2>Your Cart</h2>
-            <!-- <form action="http://localhost:3000/product/create" method="post" class="from" id="myForm" autocomplete="off"> -->
             <form class="from" id="myForm" autocomplete="off">
                 <label id="l1" for="productName">Product Name:</label>
                 <input type="text" id="productName" name="name">
@@ -36,7 +47,6 @@
                 <label id="l3" for="productPrice">Price:</label>
                 <input type="number" id="productPrice" name="price">
                 <br>
-                <!-- <button id="btn" type="submit" onclick="myFunc()">Add to Cart</button> -->
                 <button id="btn" onclick="create()">Add to Cart</button>
             </form>
         </div>
